@@ -38,6 +38,9 @@ public class binary {
         }
         System.out.println("Enter the target element: ");
         int target = sc.nextInt();
+
         binarySearch(arr, target);
+
+        sc.close(); //Closing the scanner
     }
 }
