@@ -36,7 +36,7 @@ public class binary {
         for(int i=0;i<n;i++){
             arr[i] = sc.nextInt();
         }
-        System.out.println("Enter the target element: ");
+        System.out.print("Enter the target element: ");
         int target = sc.nextInt();
 
         binarySearch(arr, target);
