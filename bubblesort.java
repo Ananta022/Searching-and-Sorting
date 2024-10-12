@@ -1,3 +1,9 @@
+/*
+    In worst case the time complexity of this code is O(n^2)
+    In best  case if the array is already sorted, the isSorted flag will remain true during the first pass
+    after that algorithm will terminate so the time complexity will be O(n)
+ */
+
 public class bubblesort {
     public static void printArr(int arr[]){
         for (int i : arr) {
